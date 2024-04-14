@@ -26,7 +26,7 @@ h2>span {
     background-size: cover;
     background-position: center;
     position: relative;
-    color: white; /* Text color for better readability */
+    color: black; /* Text color for better readability */
 }
 
 .bg-blue {
@@ -48,4 +48,20 @@ h2>span {
 .navbar-logo {
     width: 200px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
+}
+
+/* Change the color and width of the scrollbar */
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+/* Change the color of the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+    background-color:rgb(250, 159, 66); /* Color of the scrollbar thumb */
+    border-radius: 8px; /* Rounded corners for the scrollbar thumb */
+}
+
+/* Change the color of the scrollbar track (the area behind the scrollbar thumb) */
+::-webkit-scrollbar-track {
+    background-color:  #005596; /* Color of the scrollbar track */
 }
