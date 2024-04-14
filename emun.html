@@ -11,8 +11,10 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-blue">
     <div class="container">
+        <a class="navbar-brand" href="#"><img src="EME-logo-revised.png" alt="Logo 1" class="navbar-logo"></a>
+
         <a class="navbar-brand" href="#">EMUN'24 Conference</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,25 +42,27 @@
     </div>
 </nav>
 
-<div class="jumbotron jumbotron-fluid text-center text-white bg-warning">
+<div class="jumbotron jumbotron-fluid text-center text-white bg-warning jumbotron-custom">
     <div class="container">
         <h1 class="display-4">NUST CEME Model United Nations Conference</h1>
         <p class="lead">Join us for a simulated diplomatic experience!</p>
     </div>
 </div>
 
-<section id="about" class="py-5">
+<section id="about" class="py-5" style="position: relative;">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h2 class="text-warning">About Us</h2>
-                <p>Welcome to the NUST CEME Model United Nations Conference!</p>
+                <p color>Welcome to the NUST CEME Model United Nations Conference!</p>
             </div>
             <div class="col-md-6">
                 <img src="EMUN'24.png"  alt="About Image">
             </div>
         </div>
     </div>
+    <!-- Blurred overlay -->
+    <div class="jumbotron-custom-overlay"></div>
 </section>
 
 <section id="conference-details" class="bg-dark text-white py-5">
@@ -89,7 +93,9 @@
     </div>
 </section>
 
-<footer class="bg-dark text-white text-center py-4">
+<!-- Rest of your sections -->
+
+<footer class="bg-blue text-white text-center py-4">
     <div class="container">
         <p>&copy; 2024 EMUN Conference. All rights reserved.</p>
     </div>
