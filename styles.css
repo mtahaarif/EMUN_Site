@@ -1,12 +1,15 @@
 body{
     background-color: rgb(248, 248, 248);
 }
-h1,h2{
+h1{
     color: rgb(255, 252, 252);
 }
 .center-text{
-    text-align: center;
+    position: center;
+
+
 }
+
 #logo{
     margin-left: auto;
     margin-right: auto;
@@ -46,8 +49,11 @@ h2>span {
 }
 
 .navbar-logo {
-    width: 200px; /* Adjust width as needed */
+    width: 170px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
+    position:fixed;  
+    left: 10px;
+    top: 0px;
 }
 
 /* Change the color and width of the scrollbar */
@@ -64,4 +70,21 @@ h2>span {
 /* Change the color of the scrollbar track (the area behind the scrollbar thumb) */
 ::-webkit-scrollbar-track {
     background-color:  #005596; /* Color of the scrollbar track */
+}
+
+.register-btn {
+    background-color: #ffd700; /* Yellow background color */
+    border: none; /* No border */
+    color: #ffffff; /* Black text color */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.register-btn:hover {
+    background-color: #ffcc00; /* Darker yellow on hover */
 }
