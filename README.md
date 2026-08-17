@@ -1,7 +1,7 @@
 # EMUN'24 Conference Website
 
 A single-page static website for the **NUST CEME Model United Nations Conference (EME MUN)**, built with HTML, Bootstrap 4, and custom CSS. The site introduces the conference, provides event details, and directs visitors to the external registration portal
-
+---
 ## Table of Contents
 
 - [Overview](#overview)
